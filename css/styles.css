@@ -141,17 +141,19 @@ color: #404BBF;
 color: #404BBF;
 }
 
-/*#end region Header*/
+/*#endregion Header*/
 
 /* Main */
 
-/* Section Hero*/
+/* #region Section Hero*/
 .hero {
 background-color: #2E2F42;
 padding: 188px 0;
 }
 
 .hero-title {
+    margin-right: auto;
+    margin-left: auto;
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
@@ -182,18 +184,13 @@ padding: 188px 0;
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
 }
+/* #endregion Section Hero*/
 
-/*Section Strategy*/
+/*#region Section Strategy*/
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
+    visibility: hidden;
+    
 }
 
 .competence {
@@ -226,8 +223,9 @@ padding: 188px 0;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*#endregion Section Strategy*/
 
-/*Section Our Team*/
+/*#region Section Our Team*/
 .team-section {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -279,9 +277,9 @@ padding: 188px 0;
     text-align: center;
     color: #434455;
 }
+/*#endregion Section Our Team*/
 
-
-/*Section Portfolio*/
+/*#region Section Portfolio*/
 
 .portfolio-section {
     padding-top: 120px;
@@ -332,8 +330,9 @@ padding: 188px 0;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*#endregion Section Portfolio*/
 
-/*Footer*/
+/*#region Footer*/
 .footer {
     padding: 100px 0;
     background-color: #2E2F42;
@@ -358,3 +357,4 @@ padding: 188px 0;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+/*#endregion Footer*/
