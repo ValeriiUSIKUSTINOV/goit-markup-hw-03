@@ -37,10 +37,10 @@ ul {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    }
 
 a {
     text-decoration: none;
@@ -56,7 +56,24 @@ img {
 
 
 /* #region Header */
+
+.header-container {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container .container {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -66,13 +83,19 @@ img {
     color: #4D5AE5;
 }
 
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+
 .nav-menu-header {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+    padding: 24px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .nav-menu-header:hover, .nav-menu-header:focus {
@@ -82,11 +105,18 @@ color: #2E2F42;
     color: #404BBF;
 }
 
-.header-address {
+.header-address .container {
+    display: flex;
+    gap: 40px;
+}
+
+.header-address {    
     font-style: normal;
 }
 
 .header-contacts {
+    display: flex;
+    gap: 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -117,9 +147,11 @@ color: #404BBF;
 /* Section Hero*/
 .hero {
 background-color: #2E2F42;
+padding: 188px 0;
 }
 
 .hero-title {
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -130,6 +162,11 @@ background-color: #2E2F42;
 }
 
 .hero-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
